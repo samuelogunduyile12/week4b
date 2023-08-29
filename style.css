@@ -1,0 +1,176 @@
+@media screen and (max-width: 495px) {
+    
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(11, 200px);
+        gap: 10px;
+        grid-template-areas: 
+        "a a a a a a"
+        "b b b b b b"
+        "c c c c c c"
+        "d d d d d d"
+        "e e e e e e"
+        "f f f f f f"
+        "g g g g g g"
+        "h h h h h h"
+        "i i i i i i"
+        "j j j j j j"
+        "k k k k k k";
+    }
+
+    div{
+        background-color: purple;
+    }
+
+    main :nth-child(1){
+        grid-area: a;
+    }
+    main :nth-child(2){
+        grid-area: b;
+    }
+    main :nth-child(3){
+        grid-area: c;
+    }
+    main :nth-child(4){
+        grid-area: d;
+    }
+    main :nth-child(5){
+        grid-area: e;
+    }
+    main :nth-child(6){
+        grid-area: f;
+    }
+    main :nth-child(7){
+        grid-area: g;
+    }
+    main  :nth-child(8){
+        grid-area: h;
+    }
+    main :nth-child(9){
+        grid-area: i;
+    }
+    main :nth-child(10){
+        grid-area: j;
+    }
+    main :nth-child(11){
+        grid-area: k;
+    }
+
+}
+
+
+
+@media screen and (min-width: 520px) {
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    gap: 10px;
+    grid-template-areas: 
+    "a a"
+    "a a"
+    "b c"
+    "d e"
+    "f f";
+}
+
+div{
+    background-color: greenyellow;
+}
+
+main :nth-child(1){
+    grid-area: a;
+}
+main :nth-child(2){
+    grid-area: b;
+}
+main :nth-child(3){
+    grid-area: c;
+}
+main :nth-child(4){
+    grid-area: d;
+}
+main :nth-child(5){
+    grid-area: e;
+}
+main :nth-child(6){
+    grid-area: f;
+}
+main :nth-child(7){
+    grid-area: g;
+}
+main  :nth-child(8){
+    grid-area: h;
+}
+main :nth-child(9){
+    grid-area: i;
+}
+main :nth-child(10){
+    grid-area: j;
+}
+main :nth-child(11){
+    grid-area: k;
+}
+
+}
+
+
+@media screen and (min-width: 920px) {
+
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 200px);
+        gap: 10px;
+        grid-template-areas: 
+        "a a a a b b"
+        "a a a a b b"
+        "a a a a c c"
+        "f g g h h i"
+        ""
+        "k k k k k j";
+    }
+    
+    div{
+        background-color: yellow;
+    }
+    
+    main :nth-child(1){
+        grid-area: a;
+    }
+    main :nth-child(2){
+        grid-area: b;
+    }
+    main :nth-child(3){
+        grid-area: c;
+    }
+    main :nth-child(4){
+        grid-area: d;
+    }
+    main :nth-child(5){
+        grid-area: e;
+    }
+    main :nth-child(6){
+        grid-area: f;
+    }
+    main :nth-child(7){
+        grid-area: g;
+    }
+    main  :nth-child(8){
+        grid-area: h;
+    }
+    main :nth-child(9){
+        grid-area: i;
+    }
+    main :nth-child(10){
+        grid-area: j;
+    }
+    main :nth-child(11){
+        grid-area: k;
+    }
+    
+}
