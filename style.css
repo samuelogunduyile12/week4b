@@ -1,4 +1,4 @@
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 485px) {
     
 
     main{
@@ -62,7 +62,7 @@
 
 
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 520px) {
 
 main{
     display: grid;
@@ -130,8 +130,8 @@ main :nth-child(11){
         "a a a a b b"
         "a a a a b b"
         "a a a a c c"
-        "f g g h h i"
-        ""
+        "d d e e e f"
+        "g h h i i j"
         "k k k k k j";
     }
     
